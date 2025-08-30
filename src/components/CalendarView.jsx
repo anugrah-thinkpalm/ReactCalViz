@@ -11,7 +11,7 @@ import "react-big-calendar/lib/css/react-big-calendar.css";
 const locales = {
   "en-US": require("date-fns/locale/en-US")
 };
-const localizer = dateFnsLocalizer({
+const localizer = dateFnsLocalizer( {
   format,
   parse,
   startOfWeek,

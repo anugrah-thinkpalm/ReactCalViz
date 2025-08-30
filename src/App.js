@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import CalendarView from "./components/CalendarView";
 import EventPopup from "./components/EventPopup";
 import { useSelector, useDispatch } from "react-redux";
